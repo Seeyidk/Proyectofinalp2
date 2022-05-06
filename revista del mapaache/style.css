@@ -1,0 +1,130 @@
+body {
+  text-align: justify;
+  width: 960px;
+  margin: auto;
+}
+
+header,
+footer {
+  border: 2px lightgray;
+  display: block;
+  background: #1E92A2;
+  text-align: center;
+  font-family: sans-serif;
+  clear: both;
+}
+
+h1 {
+  color: moccasin;
+  font-size: 40px;
+  font-weight: bold;
+  font-family: sans-serif;
+
+}
+
+h2 {
+  font-size: 25px;
+  color: #FFFFFF;
+  font-weight: lighter;
+  font-family: sans-serif;
+}
+
+h3 {
+  font-size: 15px;
+  font-weight: lighter;
+  font-family: sans-serif;
+  color: beige;
+}
+
+section {
+  border: 1px solid black;
+  width: 71%;
+  display: inline_block;
+  float: left;
+  margin: 1px;
+}
+
+article {
+  background: lightyellow;
+  padding: 5px;
+  margin: 10px;
+  background: #1E92A2;
+  margin-bottom: 10px;
+  border: 1px solid lightyellow;
+}
+
+article footer {
+  padding: 10px;
+  margin: 10px;
+  color: black;
+  background: silver;
+  font-family: sans-serif;
+  font-size: 12px;
+  font-weight: lighter;
+  text-align: justify;
+  border: 1px solid lightblue;
+}
+
+aside {
+  border: 1px solid black;
+  width: 28%;
+  display: inline_block;
+  float: left;
+  background: #D2EDF1;
+  text-align: right;
+  margin: 1px;
+}
+
+p {
+  font-family: sans-serif;
+  font-weight: lighter;
+  font-size: 12px;
+  padding: 5px;
+  margin: 10px;
+  background-color: #E2E0D9;
+}
+
+a {
+  color: #2b0c56;
+  padding: 5px;
+  display: block;
+}
+
+time {
+  font-family: sans-serif;
+  font-weight: lighter;
+  font-size: 10px;
+  color: #FFFFFF;
+  padding: 20px;
+  font-style: italic;
+}
+
+
+img {
+  width: 100px;
+  height: 100px;
+  border: 0px solid black;
+}
+
+figure {
+  padding: 0px;
+  margin: 0px;
+}
+
+.menu {
+  border: 3px solid #03606D;
+  font-size: medium;
+  font-family: sans-serif;
+  color: white;
+  background: #1E92A2;
+
+}
+
+.menu li {
+  padding: 10px;
+  margin: 0px;
+  background-color: #03606D;
+  display: inline-block;
+  list-style: none;
+  align-items: center;
+}
